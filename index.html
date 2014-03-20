@@ -164,5 +164,26 @@ display:none;
    <iframe src="http://www.ultimatearcade.com/pages/freegames/ultimatebilliards2/ultimate-billiards-2.html"
    frameborder="0" style="border:none;" width="550" height="470" scrolling="No"></iframe>
    
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({
+      left:'250px',
+      opacity:'0.5',
+      height:'150px',
+      width:'150px'
+    });
+  });
+});
+</script> 
+</head>
+ 
+<body>
+<button>JOOSEP ROHELINE BOX</button>
+<div style="background:#98bf21;height:10px;width:10px;position:absolute;">
+</div>
+   
  </body>
 </html>
